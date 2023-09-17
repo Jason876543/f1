@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    background-color: #2D2D2D;
+    justify-content: space-between;
+    .title {
+        color: white;
+        font-size: 70px;
+        align-self: center;
+        margin: 20px;
+        width: 100%;
+    }
+
+    @media (max-width: 900px) {
+
+        .title {
+            font-size: 32px;
+        }
+
+        img{
+            height: 126px;
+            width:  216px;
+        }
+    }
+}

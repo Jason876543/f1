@@ -1,0 +1,37 @@
+{
+  "name": "homework",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "mock": "json-server --watch db.json --routes routes.json",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-switch": "1.0.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "20.6.2",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.5.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "node-sass": "^9.0.0",
+    "react": "18.2.0",
+    "react-data-table-component": "^7.5.4",
+    "react-dom": "18.2.0",
+    "react-loading-skeleton": "^3.3.1",
+    "react-query": "^3.39.3",
+    "react-redux": "^8.1.2",
+    "react-table": "^7.8.0",
+    "sass": "^1.67.0",
+    "styled-components": "5.3.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}

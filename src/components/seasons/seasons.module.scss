@@ -1,0 +1,17 @@
+
+.seasons {
+    display: flex;
+    list-style-type: none;
+
+    button {
+        background-color: white;
+        margin: 8px;
+        padding: 8px;
+        border-radius: 8px;
+
+        &.selected{
+            border: 2px solid red;
+            box-shadow: 0 0 10px #00000040;
+        }
+    }
+}

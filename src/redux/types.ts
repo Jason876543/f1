@@ -1,0 +1,6 @@
+
+interface DriverRankingsResponse {
+}
+
+interface TeamRankingsResponse {
+}

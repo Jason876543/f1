@@ -1,0 +1,5 @@
+{
+    "/rankings/drivers?season=:season": "/drivers/:season",
+    "/rankings/teams?season=:season": "/teams/:season"
+}
+  
